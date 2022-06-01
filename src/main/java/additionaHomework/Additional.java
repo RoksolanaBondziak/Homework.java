@@ -10,7 +10,7 @@ public class Additional {
         add.nearHundred(7);
         add.lastDigit(26, 125);
     }
-
+//Additional 1
     public void nearHundred(int n) {
         boolean num = true;
         if (n >= 10 && n <= 100) {
@@ -19,7 +19,7 @@ public class Additional {
             System.out.println("False");
         }
     }
-
+    //Additional 2
     public void lastDigit(int a, int b) {
         boolean k = true;
         int int1 = a % 10;
@@ -31,7 +31,7 @@ public class Additional {
             System.out.println("False");
         }
     }
-
+    //Additional 3
     public void maxInt(int a, int b, int c) {
         if (a >= b && a >= c) {
             System.out.println(a);
@@ -42,7 +42,7 @@ public class Additional {
         }
     }
 
-
+    //Additional 4
     public void love6(int a, int b) {
         boolean num = true;
         if (a == 7 || b == 7 || a + b == 7) {
@@ -53,7 +53,7 @@ public class Additional {
             System.out.println("false");
         }
     }
-
+    //Additional 5
     public void answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
         if (isMorning && !isMom) {
             System.out.println(false);
@@ -63,13 +63,14 @@ public class Additional {
             System.out.println(true);
         }
     }
-
+    //Additional 6
     public void equalSlices(int a, int b, int c) {
         double d = b * c;
         if (d <= a) {
             System.out.println(true);
         } else {
             System.out.println(false);
+            System.out.println("true or false?");
         }
     }
 }
